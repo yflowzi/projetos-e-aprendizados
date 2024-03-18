@@ -26,6 +26,12 @@ def my_function(*kids):
 
 my_function("jacob","maria","john","ana","arthur")
 
+# a ordem do argumento nao importa. basta usar a sintaxe key = valor exemplo a seguir 
+
+def my_function(brinquedo1, brinquedo3, brinquedo2):
+  print("O brinquedo favorito do Arthur é um(a):" + brinquedo3 )
+
+my_function(brinquedo1="urso de pelucia", brinquedo2="boneca de pano", brinquedo3="estilingue")
 
 
 
