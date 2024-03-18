@@ -17,6 +17,15 @@ meu_carro("88888", "blue", "opala")
 
 #ao executar o codigo ira aparecer a placa a cor e o modelo do carro.
 
+print("-------------------------------------------------------------------")
+#se o numero de argumentos forem desconhecidos add * no argumento exemplo:
+
+def my_function(*kids):
+  for kid in kids:
+    print(kid)
+
+my_function("jacob","maria","john","ana")
+
 
 
 
