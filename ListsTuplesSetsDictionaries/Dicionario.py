@@ -1,4 +1,4 @@
-dicionario = thisdict = {
+dicionario = {
     "marca": "Chevrolet",
     "modelo": "Monza",
     "ano": 1989,
@@ -11,6 +11,22 @@ dicionario2 = {"marca": "motorola",
              "ano": "2022 6 28"}
 
 print("Exercicio imprimir a marca, modelo e ano de lançamento.")
-print("Ano:",dicionario2["ano"])
-print("Marca", dicionario2["marca"])
-print("modelo", dicionario2 ["modelo"])
+print(dicionario2["ano"])
+print( dicionario2["marca"])
+print( dicionario2 ["modelo"])
+
+#descubra quantos itens tem no dicionario com a função len
+print(len(dicionario))
+
+print(len(dicionario2))
+
+#nome da chave 
+y = dicionario2.keys()
+
+print(y)
+
+
+
+
+
+

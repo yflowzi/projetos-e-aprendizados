@@ -18,7 +18,8 @@ list1 = ["abc", 34, True, 40, "male"]
 # listas ordenadas o item que estiver não irá mudar imutável, exemplo, o abacate [2] não muda de posição.
 listas = ("banana", "maçã", "abacate", "kiwi")
 for item in listas:
-    print("Lista de frutas para comprar na feira:", item)
+    print("Lista de frutas para comprar na feira:")
+    print(item)
 print("O total de frutas é:", len(listas))
 print("------------------------------------------------------")
 
@@ -69,4 +70,19 @@ print(listdfruits)
 list2 = ["apple", "banana", "cherry", "orange", "kiwi", "melon"]
 list2.insert(0, "rapadura")
 
+list2.append("carrot")
 print(list2)
+#o metodo append add tambem um novo item a lista a diferença do append e do insert é que o insert o programador pode escolher específicamente a onde vai adicionar o item na lista.
+
+#para adicionar outros items de uma lista em uma lista diferença se usa o metodo extend() 
+lista3 = ["banana", "maçã", "abacate", "kiwi"]
+
+lista3.extend(listdfruits)
+print(lista3)
+print("-------------------------------------")
+# remove
+# pop
+# del
+# clear
+
+
