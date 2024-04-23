@@ -14,8 +14,6 @@ def lowecase():
 
 y1 = lowecase()
 
-#remove whitespace follow my code example bellow:
-
 def whitespacedelete():
     t2 = "h e l l o / w o r l d"
     if t2 != str:
